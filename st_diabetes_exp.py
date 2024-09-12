@@ -3,7 +3,7 @@ import pickle
 import os
 
 model_path = 'rf_diabetes_model.pkl'
-# Periksa apakah file ada di direktori yang ditentukan
+# Periksa apakah file ada di direktori yang ditentukannn
 if os.path.exists(model_path):
     try:
         #muat model dari file pickle
