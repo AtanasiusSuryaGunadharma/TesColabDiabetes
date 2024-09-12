@@ -4,8 +4,7 @@ import os
 #load model
 model_directory = r'https://drive.google.com/drive/folders/1z6UxHnF-DrA9MMazPKwySROv7rV5_VQ8?usp=sharing' ##diisi dengan path folder dimana file dataset berada
 
-model_path = 'https://drive.google.com/file/d/1MVuTofSjJFFWNpW_afBSGLdA27exsSxE/view?usp=drive_link'
-
+model_path = os.path.join(model_directory, 'https://drive.google.com/file/d/1MVuTofSjJFFWNpW_afBSGLdA27exsSxE/view?usp=drive_link') 
 # Periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
     try:
