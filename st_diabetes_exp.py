@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import os
 #load model
-model_directory = r'https://drive.google.com/drive/folders/1z6UxHnF-DrA9MMazPKwySROv7rV5_VQ8?usp=sharing' ##diisi dengan path folder dimana file dataset berada
+model_directory = r'D:\SURYA\UAJY\Semester 5\Asdos Machine Learning\Modul Praktik\TesColabDiabetes' ##diisi dengan path folder dimana file dataset berada
 
 model_path = os.path.join(model_directory, r'D:\SURYA\UAJY\Semester 5\Asdos Machine Learning\Modul Praktik\TesColabDiabetes\st_diabetes_exp.py') 
 # Periksa apakah file ada di direktori yang ditentukan
