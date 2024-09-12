@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import os
 
-model_path = '/content/drive/MyDrive/Colab Notebooks/TesColabDiabetes/rf_diabetes_model.pkl'
+model_path = 'https://drive.google.com/file/d/1MVuTofSjJFFWNpW_afBSGLdA27exsSxE/view?usp=drive_link'
 
 # Periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
